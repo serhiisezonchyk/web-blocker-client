@@ -1,0 +1,92 @@
+{
+  "HomePage": {
+    "title": "Welcome to Resource Blocker!",
+    "welcomeMessage": "Take control of your browsing experience. With Resource Blocker, you can manage which URLs you want to restrict while browsing, enhancing your productivity and focus.",
+    "featuresTitle": "Key Features",
+    "features": {
+      "blockWebsites": "Effortlessly block specific websites or resources with ease.",
+      "urlManagement": "Flexible URL management for precise blocking control.",
+      "adminDashboard": "User-friendly admin dashboard to customize your settings."
+    },
+    "signUp": "Sign Up",
+    "or": "Or",
+    "goToDashboard": "Go to dashboard",
+    "footerText": "© {year} Resource Blocker. All rights reserved."
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you're looking for doesn't exist.",
+    "button": "Return Home"
+  },
+
+  "SignInPage": {
+    "title": "Sign in",
+    "or": "Or",
+    "createNew": "Create new"
+  },
+  "SignInForm": {
+    "emailLabel": "Email",
+    "emailPlaceholder": "user@mail.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Your password",
+    "signInButton": "Sign In",
+    "errors": {
+      "tooManyRequests": "Too many requests",
+      "invalidCredentials": "Invalid credentials 🛡️"
+    },
+    "success": {
+      "welcome": "Welcome!🎉"
+    }
+  },
+  "SignUpForm": {
+    "emailLabel": "Email",
+    "emailPlaceholder": "user@mail.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Your password",
+    "repeatPasswordLabel": "Repeat password",
+    "repeatPasswordPlaceholder": "Repeat your password",
+    "signUpButton": "Sign Up",
+    "errors": {
+      "emailExists": "This email already exists",
+      "tooManyAttempts": "Too many attempts",
+      "default": "Something went wrong..."
+    },
+    "success": {
+      "welcome": "Welcome! 🎉"
+    }
+  },
+  "SignUpPage": {
+    "title": "Sign up",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInLink": "Sign in"
+  },
+  "AddBlockItemForm": {
+    "typePlaceholder": "Type...",
+    "websitePlaceholder": "Enter website",
+    "keywordPlaceholder": "Enter keyword",
+    "type": {
+      "Website": "Website",
+      "KeyWord": "Keyword"
+    },
+    "errors": {
+      "itemExists": "An item with the same details already exists.",
+      "serverError": "Server error. Please try again later.",
+      "default": "Failed to add item. Please try again."
+    }
+  },
+  "BlockList": {
+    "searchPlaceholder": "Search...",
+    "notFound": "Not found"
+  },
+  "BlockListPage": {
+    "blockListTitle": "Block List"
+  },
+  "MainHeader": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out"
+  },
+  "ToggleButton": {
+    "enableBlocking": "Enable blocking",
+    "disableBlocking": "Disable blocking"
+  }
+}
