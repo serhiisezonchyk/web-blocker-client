@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Client - Chrome Extension for Blocking Sources by URL
 
-## Getting Started
+This is the client-side of the Chrome extension for blocking sources by URL. Built with Next.js, this part of the application handles the user interface and interacts with the backend API.
 
-First, run the development server:
+## Project Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Frontend framework for React applications.
+- **TypeScript**: Type-checking and static analysis.
+- **Tailwind CSS**: Styling.
+- **React Query**: Data fetching and caching.
+- **React Hook Form**: Form management.
+- **Zod**: Schema validation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requirements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js**: Ensure you have Node.js installed.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
 
-## Learn More
+| Command               | Description                                      |
+|-----------------------|--------------------------------------------------|
+| `npm run dev`         | Starts the development server                    |
+| `npm run build`       | Builds the application for production            |
+| `npm run start`       | Starts the production server                     |
+| `npm run lint`        | Lints the codebase using ESLint                  |
+| `npm run format`      | Formats code using Prettier                      |
+| `npm run api:download`| Downloads the latest API schema                  |
+| `npm run api:generate`| Generates API client using Orval                 |
 
-To learn more about Next.js, take a look at the following resources:
+## Setup Instructions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Install Dependencies**
+   ```bash
+   npm install
+2. **Environment Variables**
+- Set up any required environment variables in a .env file at the root of your project.
+3. **Run the Development Server**
+    ```bash
+    npm run dev
+4. **Generate API Client**
+- To generate the API client based on the latest API schema, first download the schema, then generate the client:
+    ```bash
+    npm run api:download
+    npm run api:generate
+## Linting and Formatting
+- **Linting:** Run npm run lint to check code quality.
+- **Formatting:** Use npm run format to format code with Prettier.
+## Libraries Used
+- **Shadcn UI:** Dropdowns, labels, selects, etc.
+- **Framer Motion:** Animations.
+- **React Hook Form:** Efficient form handling.
+- **Zod:** Schema validation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Additional Notes
+- **API Schema:** Ensure the backend server is running before executing npm run api:download.
+- **Localization:** Uses next-intl for multi-language support.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For any issues, please refer to the documentation for each package used or consult the Next.js and TypeScript documentation.
